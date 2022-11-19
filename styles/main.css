@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    background-image: url(../img/cheesecake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+}
