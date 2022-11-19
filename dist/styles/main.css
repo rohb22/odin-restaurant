@@ -16,4 +16,55 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -200px;
+    margin: 0;
+    height: 100vh;
 }
+
+#content {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: .2fr 1fr .1fr;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tab {
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.6em;
+}
+
+.active {
+    text-shadow: 0px 0px 10px #ebd8a9;
+}
+
+
+
+.welcome {
+    min-height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.home-title {
+    font-size: 3em;
+}
+
+.subtext {
+    font-size: 1.2em;
+    text-shadow: 0px 0px 10px #ebd8a9;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+

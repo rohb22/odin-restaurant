@@ -6,3 +6,6 @@ Date Finished: ???
 
 # Goal
 To create website content using JavaScript
+
+# Note
+The code is based on <a href="https://github.com/igorashs/restaurant-page">@igorashs</a> solution
