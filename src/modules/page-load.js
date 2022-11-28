@@ -42,7 +42,7 @@ function createFooter(id, text) {
 }
 
 function loadPage(){
-    const container =  document.querySelector('#content');
+    const container = document.querySelector('#content');
 
     const nav = createNav('nav');
     container.appendChild(nav);

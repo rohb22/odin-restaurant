@@ -1,3 +1,5 @@
+import { setCurrent } from "..";
+
 function createHome(){
     const welcome = document.createElement('div');
     welcome.classList.add('welcome');
@@ -17,23 +19,13 @@ function createHome(){
     return welcome;
 }
 
-function setCurrent(id) {
-    const current = document.querySelector(".tab.active");
-    if (current) {
-        current.classList.remove('active');
-    }
-
-    const homeBtn = document.getElementById(id);
-    homeBtn.classList.add('active');
-}
-
 function loadHome() {
     const content = document.querySelector('#main-content');
 
     content.textContent = " ";
 
     const welcome = createHome();
-    setCurrent('home');
+    setCurrent('home');``
 
     content.appendChild(welcome);
 }
