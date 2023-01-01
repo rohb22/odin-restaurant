@@ -1,8 +1,8 @@
 # odin-restaurant
 JavaScript Course\
 Project: Restaurant Page\
-Date Started: November 19, 2022\
-Date Finished: ???
+Date Started: December 27, 2022\
+Date Finished: January 1, 2023
 
 # Goal
 To create website content using JavaScript
