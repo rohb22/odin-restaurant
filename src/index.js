@@ -15,7 +15,7 @@ function changePage() {
 
 function load(){
     loadPage();
-    loadContact();
+    loadHome();
     changePage();
 };
 
